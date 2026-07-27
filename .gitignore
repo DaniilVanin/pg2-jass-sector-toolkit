@@ -1,0 +1,45 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Generated working files
+out/
+build/
+
+# Local Warcraft III maps and extracted scripts.
+# Keep these outside git unless a sample is intentionally sanitized.
+*.w3x
+*.w3m
+*.j
+
+# Tracked sample/reference maps.
+!PG2.w3x
+!a.w3x
+
+# Large local listfiles are useful for recovery work, but should not be part of
+# the toolkit repository by default.
+listfile.txt
